@@ -1,9 +1,5 @@
 # 40069
 
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
-
 ## Current behavior
 
 The nuget manager can extract package directives from single file dotnet scripts. Cakebuild however extends the functionality to be able to install dotnet tools. The mechanism to install in single file C# build files is to use dedicated methods. Package references in those methods are not yet handled by renovate.
