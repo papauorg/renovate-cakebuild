@@ -5,5 +5,5 @@ InstallTool("dotnet:https://api.nuget.org/v3/index.json?package=GitVersion.Tool&
 // Install multiple tools at once
 InstallTools(
     "dotnet:https://api.nuget.org/v3/index.json?package=dotnet-trace=9.0.621003",
-    "dotnet:?package=Octopus.DotNet.Cli&version=9.1.6"
+    "dotnet:?package=Octopus.DotNet.Cli&version=9.1.7"
 );
