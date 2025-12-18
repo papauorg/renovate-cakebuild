@@ -4,6 +4,9 @@
 
 The nuget manager can extract package directives from single file dotnet scripts. Cakebuild however extends the functionality to be able to install dotnet tools. The mechanism to install in single file C# build files is to use dedicated methods. Package references in those methods are not yet handled by renovate.
 
+Description of Methods see this Blog post:
+https://www.devlead.se/posts/2025/2025-07-28-migrating-to-cake-sdk
+
 ## Expected behavior
 Given the cake build file uses the `InstallTool` or `InstallTools` methods, the package names versions in there are updated,
 while other strings are left unchanged.
