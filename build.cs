@@ -1,6 +1,6 @@
 #:sdk Cake.Sdk
 
-InstallTool("dotnet:https://api.nuget.org/v3/index.json?package=GitVersion.Tool&version=6.5.0");
+InstallTool("dotnet:https://api.nuget.org/v3/index.json?package=GitVersion.Tool&version=6.5.1");
 
 // Install multiple tools at once
 InstallTools(
